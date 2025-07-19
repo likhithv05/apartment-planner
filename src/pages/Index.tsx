@@ -1,3 +1,4 @@
+// Index.tsx - This is like the homepage where all the magic happens
 import { useState, useEffect } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";

@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Apartment Planner & Expense Tracker 🏠💸
 
-## Project info
+Hey! This is a project I made to help keep track of apartment stuff and split expenses for the inital move in.
 
-**URL**: https://lovable.dev/projects/6973a22c-f6d1-4553-a5c7-b2a3f541c673
+## What is this?
+A web app for managing apartment items, tracking who bought what, and making sure nobody forgets to pay their share. Built with React, TypeScript, Supabase, and TailwindCSS. Super chill, super useful.
 
-## How can I edit this code?
+## Features
+- Add, edit, and filter apartment items (like a shopping list, but fancier)
+- Track who owns what and how much it cost
+- Shared budget summary (so you know when you’re out)
+- Responsive UI (works on your phone during IKEA trips)
+- 404 page for when you get lost (it happens)
 
-There are several ways of editing your application.
+## Setup
+1. **Clone this repo:**
+   ```bash
+   git clone https://github.com/yourusername/apartment-planner.git
+   cd apartment-planner
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   bun install
+   ```
+3. **Set up Supabase:**
+   - Make a free account at [supabase.com](https://supabase.com)
+   - Create a new project and copy your API keys into `src/integrations/supabase/client.ts`
+   - Run the SQL in `supabase/migrations/` to set up your tables
+4. **Start the app:**
+   ```bash
+   npm run dev
+   # or
+   bun run dev
+   ```
+5. **Open [localhost:5173](http://localhost:5173) and work**
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/6973a22c-f6d1-4553-a5c7-b2a3f541c673) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+## Tech Stack
+- React + TypeScript
+- Supabase (Postgres + Auth)
+- TailwindCSS
 - Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/6973a22c-f6d1-4553-a5c7-b2a3f541c673) and click on Share -> Publish.
+## Why?
+Because splitting rent and shopping lists with roommates is a pain. This makes it less painful. Also, I wanted to learn Supabase and Tailwind.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+MIT. Use it, remix it, change it, whatever.

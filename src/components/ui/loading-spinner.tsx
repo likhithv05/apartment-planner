@@ -1,3 +1,4 @@
+// loading-spinner.tsx - Because waiting is boring
 import { cn } from "@/lib/utils";
 
 interface LoadingSpinnerProps {

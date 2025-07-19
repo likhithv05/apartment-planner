@@ -1,3 +1,4 @@
+// input.tsx - Just a fancy input box
 import * as React from "react"
 
 import { cn } from "@/lib/utils"

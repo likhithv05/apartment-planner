@@ -1,3 +1,4 @@
+// NotFound.tsx - 404 page, because people get lost sometimes
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 

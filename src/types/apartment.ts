@@ -1,3 +1,4 @@
+// apartment.ts - Types for all the apartment stuff
 export interface Item {
   id: number;
   created_at: string;
