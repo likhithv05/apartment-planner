@@ -3,7 +3,7 @@
 Hey! This is a project I made to help keep track of apartment stuff and split expenses for the inital move in.
 
 ## What is this?
-A web app for managing apartment items, tracking who bought what, and making sure nobody forgets to pay their share. Built with React, TypeScript, Supabase, and TailwindCSS. Super chill, super useful.
+A web app for managing apartment items, tracking who bought what, and making sure nobody forgets to pay their share. Built with React, TypeScript, Supabase, and TailwindCSS.
 
 ## Features
 - Add, edit, and filter apartment items (like a shopping list, but fancier)
@@ -44,7 +44,7 @@ A web app for managing apartment items, tracking who bought what, and making sur
 
 
 ## Why?
-Because splitting rent and shopping lists with roommates is a pain. This makes it less painful. Also, I wanted to learn Supabase and Tailwind.
+Because splitting move-in belongings and shopping lists with roommates is a pain. This makes it less painful. Also, I wanted to learn Supabase and Tailwind.
 
 ## License
 MIT. Use it, remix it, change it, whatever.
